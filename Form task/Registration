@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="X-UA-compatible" content="IE=edge"
+  <title>Registration page</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="rdiv">
+    <form action="./success.html" method="post">
+      <fieldset>
+        <p class="tind">Please kindly acesss my <a class="replink" href="https://replit.com/@AdebayoSamuel1/Frontend-form-task#index.html">REPLIT LINK</a> to view my codes</p>
+        <h1 class="tind head">Kindly Register</h1>
+    <label class="tind">First name:<input type="text" name="firstname" placeholder="Samuel" required></label>    <br>
+     <label class="tind">middle name:<input type="text" name="middlename" placeholder="Opeyemi"></label>  <br>  
+     <label class="tind">Last name:<input type="text" name="lastname" placeholder="Adebayo" required></label>   <br>
+        <label class="tind">Email address:<input type="email" name="email" placeholder="adebayosamuel308@gmail.com" required></label>   <br> 
+        <label class="tind">Phone number:<input type="number" name="contact" required></label> <br>
+        <label class="tind">Date of birth:<input type="date" name="dob" placeholder="11/01/2001" required></label>    <br>
+        <label class="tind">Password:<input type="password" name="pw" minlength="8" value="password" required></label>  <br>
+        <label class="tind">Confirm Password:<input type="password" name="pw" minlength="8" value="password" required></label>
+      </fieldset>
+
+      <fieldset>
+        <label class="tind">What best defines you:<select>
+          <option>Graduate</option>
+          <option>Undergraduate</option><option>No formal education</option>
+        </select></label>
+        <br>
+        <label class="tind">Gender:
+        <select>
+          <option>Male</option>
+<option>Female</option>
+<option>Prefer not to say</option>
+        </select></label>
+      <br>
+        <label class="tind">Select your favorite color<input type="color" name="favcolor" required></label>    <br>
+        <div id="subdiv">
+      <input class="submit" type="submit" value="Submit">
+        </div>
+        </fieldset>
+    </form>
+  </div>
+  <div>
+      <p class="head">Already have an account?</p>
+      <p class="head">Sign in <a href="./login.html">here</a></p>
+  </div>
+  <script src="script.js"></script>
+
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
