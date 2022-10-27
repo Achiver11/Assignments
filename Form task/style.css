@@ -1,0 +1,48 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+label {
+  display: block;
+}
+#rdiv {
+margin: auto;
+  width: 95%;
+  height: auto;
+  background-color: blueviolet;
+}
+input {
+  display: block;
+}
+.inp {
+  display: inline;
+}
+.tind {
+  color: white;
+}
+.head {
+  text-align: center;
+  font-family: cursive;
+}
+.input {
+  margin: 0 auto;
+}
+#logdiv {
+  background-color: blue;
+  width: 95%;
+  height: auto;
+  margin: auto;
+}
+.logleb {
+  margin: 0 auto;
+}
+#subdiv {
+text-align: center;
+  margin: auto;
+}
+.suc {
+  text-align: center;
+}
+.replink {
+  color: yellow;
+}
